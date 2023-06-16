@@ -1,0 +1,63 @@
+---
+inquiry: "Bring me something to eat"
+table:
+  description: "A table with various objects placed on it."
+  objects:
+    - name: "white mouse"
+      features:
+        - color: "white"
+        - type: "mouse"
+    - name: "blue book"
+      features:
+        - color: "blue"
+        - type: "book"
+    - name: "blue mouse"
+      features:
+        - color: "blue"
+        - type: "mouse"
+    - name: "apple"
+      features:
+        - color: "red"
+        - type: "apple"
+    - name: "toothbrush"
+      features:
+        - color: "unknown"
+        - type: "toothbrush"
+    - name: "blue cup"
+      features:
+        - color: "blue"
+        - type: "cup"
+    - name: "yellow cup"
+      features:
+        - color: "yellow"
+        - type: "cup"
+  locations:
+    - object: "white mouse"
+      relative_location: "left of blue book"
+    - object: "blue book"
+      relative_location: "center of table"
+    - object: "blue mouse"
+      relative_location: "on top of blue book"
+    - object: "apple"
+      relative_location: "in front of blue book"
+    - object: "toothbrush"
+      relative_location: "on top of blue mouse and apple"
+    - object: "blue cup"
+      relative_location: "on top of yellow cup"
+    - object: "yellow cup"
+      relative_location: "right of blue book"
+# description_of_table: "\n        There is table divided into 34 x 38 x 6 grids.\n    \
+#   \    Each object can occupy one or more grid cells.\n        The position of each\
+#   \ object is represented by it's position with respect to top left corner (x,y,z)\
+#   \ and it's size as length, width, and height of the grids it occupies (l,w,h)."
+# objects_on_table:
+# - cup1_1
+# - cup1_2
+# - cup1_3
+# - cup1_4
+# position_of_objects:
+# - cup1_1 at (12, 29, 0) size (4, 4, 6)
+# - cup1_2 at (17, 4, 0) size (4, 4, 6)
+# - cup1_3 at (17, 28, 0) size (4, 4, 6)
+# - cup1_4 at (13, 2, 0) size (4, 4, 6)
+# relative_position_of_objects:

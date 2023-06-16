@@ -1,0 +1,38 @@
+---
+inquiry: "Bring me a cup"
+table:
+  description: "A table with 10 cups arranged in a line."
+  objects:
+    - name: "small blue cups"
+      features:
+        - color: "blue"
+        - type: "cup"
+        - size: "small"
+      quantity: 2
+    - name: "large blue cups"
+      features:
+        - color: "blue"
+        - type: "cup"
+        - size: "large"
+      quantity: 3
+    - name: "small red cups"
+      features:
+        - color: "red"
+        - type: "cup"
+        - size: "small"
+      quantity: 2
+    - name: "large red cups"
+      features:
+        - color: "red"
+        - type: "cup"
+        - size: "large"
+      quantity: 3
+  locations:
+    - object: "small blue cups"
+      relative_location: "in a line on the table"
+    - object: "large blue cups"
+      relative_location: "in a line on the table"
+    - object: "small red cups"
+      relative_location: "in a line on the table"
+    - object: "large red cups"
+      relative_location: "in a line on the table"
